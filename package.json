@@ -18,7 +18,13 @@
     "api",
     "mailazy",
     "sdk",
-    "lib"
+    "lib",
+	"mailgun",
+	"mandrill",
+	"moonmail",
+	"nodemailer",
+	"postmark",
+	"node-email"
   ],
   "engines": {
     "node": ">= 10.10"
