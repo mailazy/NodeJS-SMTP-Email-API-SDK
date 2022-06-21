@@ -1,0 +1,47 @@
+{
+  "name": "mailazy",
+  "version": "1.0.0",
+  "description": "Mailazy NodeJs SDK Client",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailazy/NodeJS-SMTP-Email-API-SDK"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smtp",
+    "email",
+    "api",
+    "mailazy",
+    "sdk",
+    "lib"
+  ],
+  "engines": {
+    "node": ">= 10.10"
+  },
+  "contributors": [
+    {
+      "name": "Mailazy",
+      "email": "support@mailazy.com",
+      "github": "mailazy"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mailazy/NodeJS-SMTP-Email-API-SDK/issues"
+  },
+  "homepage": "https://mailazy.com",
+  "author": "Mailazy",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http2": "^3.3.7",
+    "nodemailer": "^6.7.5",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  },
+  "files": [
+    "index.js"
+  ]
+}
