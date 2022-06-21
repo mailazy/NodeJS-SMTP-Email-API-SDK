@@ -1,5 +1,5 @@
 {
-  "name": "mailazy",
+  "name": "smtp-mailer",
   "version": "1.0.0",
   "description": "Mailazy NodeJs SDK Client",
   "main": "index.js",
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "smtp",
+	"nodemailer",
+	"sendgrid",
     "email",
     "api",
     "mailazy",

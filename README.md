@@ -29,13 +29,13 @@ You need a sender/domain authenticated account in order to generate Access Keys 
 [npm][]:
 
 ```sh
-npm install mailazy
+npm install smtp-mailer
 ```
 
 [yarn][]:
 
 ```sh
-yarn add mailazy
+yarn add smtp-mailer
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ yarn add mailazy
 ### Email API
 
 ```js
-const MailazyClient = require('mailazy');
+const MailazyClient = require('smtp-mailer');
 const client = new MailazyClient({
     serviceType: "API", //SMTP,API
     auth: {
@@ -82,7 +82,7 @@ fn();
 ### SMTP
 
 ```js
-const MailazyClient = require('mailazy');
+const MailazyClient = require('smtp-mailer');
 const client = new MailazyClient({
     serviceType: "SMTP", //SMTP,API
     auth: {
